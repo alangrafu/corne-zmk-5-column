@@ -10,8 +10,8 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/mouse.h>
 
-#define U_MOUSE_MOVE_MAX 1400
-#define U_MOUSE_MOVE_EXPONENT 2b
+#define U_MOUSE_MOVE_MAX 3000
+#define U_MOUSE_MOVE_EXPONENT 10
 #define U_MOUSE_MOVE_TIME 1500
 #define U_MOUSE_MOVE_DELAY 0
 #define U_MOUSE_SCROLL_MAX 500                    /* <--- New max speed setting (default: 10) */
