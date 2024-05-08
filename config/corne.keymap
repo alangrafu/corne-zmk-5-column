@@ -12,10 +12,10 @@
 
 
 #define U_MOUSE_MOVE_MAX 1400
-#define U_MOUSE_MOVE_EXPONENT 1
+#define U_MOUSE_MOVE_EXPONENT 2b
 #define U_MOUSE_MOVE_TIME 1500
 #define U_MOUSE_MOVE_DELAY 0
-#define U_MOUSE_SCROLL_MAX 100                    /* <--- New max speed setting (default: 10) */
+#define U_MOUSE_SCROLL_MAX 500                    /* <--- New max speed setting (default: 10) */
 &mt {
     tapping-term-ms = <400>;
     quick-tap-ms = <175>;
