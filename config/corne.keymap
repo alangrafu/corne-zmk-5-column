@@ -163,8 +163,8 @@
         numsym_layer {
             bindings = <
 &trans  &kp N1        &kp N2     &kp N3   &kp N4   &kp N5          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp QUESTION  &trans
-&trans  &kp NUMBER_6  &kp N7     &kp N8   &kp N9   &kp NUMBER_0    &kp COLON         &kp DOUBLE_QUOTES  &kp UNDERSCORE  &kp PIPE         &kp ASTERISK  &trans
-&trans  &kp GRAVE     &kp TILDE  &kp DQT  &kp SQT  &kp BSLH        &kp LESS_THAN     &kp GREATER_THAN   &kp MINUS       &kp EQUAL        &kp SLASH     &trans
+&trans  &kp NUMBER_6  &kp N7     &kp N8   &kp N9   &kp NUMBER_0    &kp COLON         &kp PLUS           &kp MINUS       &kp PIPE         &kp ASTERISK  &trans
+&trans  &kp GRAVE     &kp TILDE  &kp DQT  &kp SQT  &kp BSLH        &kp LESS_THAN     &kp GREATER_THAN   &kp UNDER       &kp EQUAL        &kp SLASH     &trans
                                  &trans   &trans   &trans          &trans            &trans             &trans
             >;
         };
@@ -192,7 +192,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans     &msc SCRL_DOWN  &mmv MOVE_UP    &msc SCRL_UP     &trans     &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &mkp LCLK  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp RCLK  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans     &trans          &trans          &trans           &trans     &trans
-                        &trans  &trans  &trans    &trans     &trans          &trans
+                        &trans  &trans  &trans    &mkp LCLK  &trans          &trans
             >;
         };
     };
