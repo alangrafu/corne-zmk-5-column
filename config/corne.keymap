@@ -135,6 +135,11 @@
             bindings = <&mo 4>;
             key-positions = <28 29>;
         };
+
+        screenshot {
+            bindings = <&kp LG(LS(NUMBER_1))>;
+            key-positions = <38 25 5>;
+        };
     };
 
     conditional_layers { compatible = "zmk,conditional-layers"; };
