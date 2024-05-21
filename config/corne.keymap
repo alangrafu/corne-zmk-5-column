@@ -138,7 +138,7 @@
 
         screenshot {
             bindings = <&kp LG(LS(NUMBER_1))>;
-            key-positions = <38 25 5>;
+            key-positions = <25 5>;
         };
     };
 
