@@ -25,6 +25,9 @@
 
 &lt { tapping-term-ms = <200>; };
 
+&sl {
+};
+
 / {
     combos {
         compatible = "zmk,combos";
@@ -144,6 +147,18 @@
 
     conditional_layers { compatible = "zmk,conditional-layers"; };
 
+    behaviors {
+        new_behavior: new_behavior {
+            compatible = "zmk,behavior-hold-tap";
+            label = "NEW_BEHAVIOR";
+            #binding-cells = <2>;
+            bindings = <&key_repeat>;
+            tapping-term-ms = <200>;
+            hold-trigger-key-positions = <38>;
+            hold-trigger-on-release;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -176,7 +191,7 @@
 
         fun_layer {
             bindings = <
-&trans  &kp GRAVE   &kp F1  &kp F4  &kp F7  &kp C_VOL_UP    &kp C_BRIGHTNESS_INC  &kp K_PASTE     &kp UP_ARROW    &kp K_COPY  &kp ESC        &trans
+&trans  &kp GRAVE   &kp F1  &kp F4  &kp F7  &kp C_VOL_UP    &kp C_BRIGHTNESS_INC  &kp K_PASTE     &kp UP_ARROW    &kp K_COPY  &kp PG_UP      &trans
 &trans  &kp LSHIFT  &kp F2  &kp F5  &kp F8  &kp C_MUTE      &kp C_PLAY_PAUSE      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT   &kp PG_UP      &trans
 &trans  &kp LCTRL   &kp F3  &kp F6  &kp F9  &kp C_VOL_DN    &kp C_BRIGHTNESS_DEC  &kp K_UNDO      &kp K_REDO      &kp K_CUT   &kp PAGE_DOWN  &trans
                             &trans  &trans  &trans          &trans                &trans          &trans
