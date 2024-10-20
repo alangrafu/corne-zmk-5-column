@@ -158,7 +158,7 @@
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <250>;
-            bindings = <&to 1>, <&to 0>;
+            bindings = <&to 0>, <&to 0>;
         };
     };
     keymap {
