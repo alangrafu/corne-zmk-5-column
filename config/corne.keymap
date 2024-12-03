@@ -32,7 +32,7 @@
         combo_layer_2 {
             timeout-ms = <50>;
             key-positions = <13 25>;
-            bindings = <&to 2>;
+            bindings = <&lt 2>;
         };
 
         combo_esc {
