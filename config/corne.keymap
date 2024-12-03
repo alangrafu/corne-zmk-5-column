@@ -17,10 +17,10 @@
 #define U_MOUSE_SCROLL_MAX 500                    /* <--- New max speed setting (default: 10) */
 
 &mt {
-    tapping-term-ms = <100>;
-    quick-tap-ms = <100>;
+    tapping-term-ms = <200>;
+    quick-tap-ms = <200>;
     require-prior-idle-ms = <120>;
-    flavor = "tap-preferred";
+    flavor = "hold-preferred";
 };
 
 &lt { tapping-term-ms = <200>; };
